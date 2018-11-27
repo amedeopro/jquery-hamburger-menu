@@ -87,9 +87,3 @@
     display: inline-block;
   }
 }
-
-@media screen and (min-width: 1000px) {
-  .burger-menu-active{
-    display:none;
-  }
-}
