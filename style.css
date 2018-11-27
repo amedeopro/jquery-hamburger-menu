@@ -70,13 +70,23 @@
 
 .burger-menu-active{
   display: none;
-  float: right;
-  width: 150px;
+  width: 250px;
   height: 250px;
   background: black;
   margin-top: 50px;
+  padding: 10px;
 }
 
+.burger-menu-active ul li{
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.burger-menu-active ul a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
 
 @media screen and (max-width: 1000px) {
   .menu{
